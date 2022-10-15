@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Kółko i krzyżyk</title>
+	<meta name="description" content="Kółko i krzyżyk">
+	<meta name="keywords" content="tic-tac-toe, kółko i krzyżyk, gra, gra dla dwóch">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+	
+	<link rel="stylesheet" href="main.css">
+	<script src="JavaScript.js"></script>
+	<link href="uniwersalny.css" rel="stylesheet" tyle="text/css" />
+	
+</head>
+
+<body>
+	<div id="nav">
+		<ul>
+			<li><a href="index.html">Szubienica</a></li>
+			<li><a href="gra.html">Kółko i krzyżyk</a></li>
+			<li><a href="mastermind.html">Mastermind</a></li>
+			<div style="clear:both;"></div>
+		</ul>
+	</div>
+	<div id="container">
+
+		<div id="header"><h1>Kółko i Krzyżyk</h1></div>
+		<div class="glowa">
+			<div class="wybor" id="kolko" onclick="kto_zaczyna(0,7)">KÓŁKO</div>
+			<div class="wybor" id="krzyzyk" style="background-color: #209781;" onclick="kto_zaczyna(1,8)">KRZYŻYK</div>
+			<a href="komputer.html"><div class="wybor" id="komputer">ZAGRAJ Z KOMPUTEREM</div></a>
+		</div>
+
+		<main>
+
+			<div class="space" id="0" onclick="sprawdz(0)"></div>
+			<div class="space" id="1" onclick="sprawdz(1)"></div>
+			<div class="space" id="2" onclick="sprawdz(2)"></div>
+			<div style="clear: both;"></div>
+
+			<div class="space" id="3" onclick="sprawdz(3)"></div>
+			<div class="space" id="4" onclick="sprawdz(4)"></div>
+			<div class="space" id="5" onclick="sprawdz(5)"></div>
+			<div style="clear: both;"></div>
+
+			<div class="space" id="6" onclick="sprawdz(6)"></div>
+			<div class="space" id="7" onclick="sprawdz(7)"></div>
+			<div class="space" id="8" onclick="sprawdz(8)"></div>
+			<div style="clear: both;"></div>
+
+		</main>
+
+		<div id="footer"></div>
+
+	</div>
+	
+</body>
+</html>

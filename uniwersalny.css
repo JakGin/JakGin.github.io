@@ -1,0 +1,51 @@
+ul
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+	text-align: center;
+}
+
+ul > li
+{
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+}
+
+ul > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+
+ul > li:hover
+{
+	background-color: #cf6969;
+}
+
+ul > li:hover > a
+{
+	color: #451717;
+	text-decoration: none;
+}
+ul > li > a
+{
+	text-decoration: none;
+	color: lightgray;
+}
+
+ul > li > a:visited
+{
+	text-decoration: none;
+	color: lightgray;
+}
+
+#nav
+{
+	text-align: center;
+}

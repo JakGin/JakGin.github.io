@@ -1,0 +1,105 @@
+body
+{
+	background-color: #26282E;
+	color: #209781;
+	text-align: center;
+	font-family: 'Lobster', sans-serif;
+    user-select: none;
+    margin: 0px;
+}
+
+h1
+{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	font-size: 50px;
+}
+
+#header
+{
+	text-align: center;
+	margin: 5px;
+	letter-spacing: 5px;
+}
+
+.glowa
+{
+	margin-bottom: 20px;
+}
+
+.wybor
+{
+	display: inline-block;
+	border: 3px solid white;
+	width: 120px;
+	margin: 5px;
+	padding: 10px;
+	color: lightgray;
+	cursor: pointer;
+	border-radius: 7px;
+	font-size: 20px;
+}
+
+#komputer:hover
+{
+	background-color: #484a4f;
+}
+
+.space
+{
+	float: left;
+	border: 2px solid #e9b64a;
+	width: 150px;
+	height: 150px;
+}
+
+.space:hover
+{
+	cursor: pointer;
+}
+
+main
+{
+	margin-left: 219px;
+}
+
+#footer
+{
+	margin-top: 40px;
+	text-align: center;
+	font size: 32px;
+	color: #FFD700;
+	letter-spacing: 1px;
+}
+
+#reset
+{
+	width:230px;
+	padding: 30px;
+	font-size: 20px;
+	color: lightgray;
+	border: 3px solid white;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+#reset:hover
+{
+	background-color: #484a4F;
+}
+
+.napis
+{
+	font-size: 44px;
+	color: #008B8B;
+}

@@ -1,0 +1,126 @@
+body
+{
+	background-color: #000000;
+	color: lightgray;
+	font-size: 28px;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+	webkit-touch-callout: none;
+    webkit-user-select: none;
+    khtml-user-select: none;
+    moz-user-select: none;
+    ms-user-select: none;
+    user-select: none;
+}
+
+
+#pojemnik
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#kategoria
+{
+	font-size: 72px;
+	color: #ECE641;
+	text-align: center;
+	padding: 10px;
+	min-height: 100px;
+	margin-top: 20px;
+	font-family: 'Caveat', cursive;
+}
+
+#plansza
+{
+	width: 900px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 40px;
+}
+
+#szubienica
+{
+	float: left;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#alfabet
+{
+	float: left;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.reset
+{
+	font-size: 48px;
+	color: green;
+	cursor: pointer;
+}
+
+.reset:hover
+{
+	color: #55D555;
+}
+
+.przegrana
+{
+	color: red;
+	font-size: 36px;
+}
+
+.wygrana
+{
+	color: #22A222;
+	font-size: 36px;
+}
+
+#inne_haslo
+{
+	width: 150px;
+	height: 59px;
+	margin-left: 682px;
+	border: 3px solid gray;
+	cursor: pointer;
+	border-radius: 15px;
+	margin-top: 50px;
+	text-align: center;
+	padding: 8px 0;
+}
+
+#inne_haslo:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+
+
